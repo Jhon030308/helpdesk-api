@@ -1,0 +1,12 @@
+### Criar um novo Ticket
+POST http://localhost:8082/tickets
+Content-Type: application/json
+
+{
+  "titulo": "Computador nao liga",
+  "descricao": "O equipamento nao da sinal de vida ao apertar o botao.",
+  "status": "ABERTO"
+}
+
+### Listar todos os Tickets
+GET http://localhost:8082/tickets
